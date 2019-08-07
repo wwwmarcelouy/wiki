@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+
 # Name of your site (displayed in the header)
 name: Wiki
 
