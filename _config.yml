@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+
 # Name of your site (displayed in the header)
 name: Wiki
 
@@ -84,3 +87,11 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+    "Just the Docs on GitHub":
+      - "//github.com/pmarsceill/just-the-docs"
